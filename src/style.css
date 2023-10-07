@@ -1,0 +1,328 @@
+body {
+    background-color: rgb(209, 204, 204);
+}
+
+.templateContainer {
+    margin: 5% 0;
+}
+
+.templateContainer>.searchInput_Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.templateContainer>.searchInput_Container input {
+    width: 50%;
+    padding: 10px;
+    outline: none;
+}
+
+.template_Container {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.templateContainer .template_Container .template {
+    background-color: white;
+    margin: 30px;
+    padding: 0px 20px;
+}
+
+.templateContainer .template_Container .template img {
+    height: 250px;
+}
+
+.container {
+    position: relative;
+    height: 62px;
+    left: 11%;
+    width: 77%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: flex-start;
+}
+
+.search-container {
+    position: relative;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.search-input {
+    padding-right: 30px;
+    /* Ensure enough space for the icon */
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+}
+
+.search-icon {
+    position: absolute;
+    right: 15px;
+    /* Adjust the position as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+
+/* Dropdown.css */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    padding: 10px;
+    margin: 20px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: none;
+}
+
+.dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+
+/* CustomCard.css (or your preferred CSS file) */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+
+.custom-card {
+    position: relative;
+    display: inline-block;
+    width: 24.33%;
+    height: 592px;
+    left: 12%;
+    /* border: 1px solid black; */
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(181, 198, 232);
+}
+
+.card-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.year {
+    /* border: dotted; */
+    text-decoration: underline;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.rowOne {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* background-color: red; */
+}
+
+.rowTwo {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px
+}
+
+.icons i {
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.card-text {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border-bottom: 2px solid black;
+}
+
+.rowThree {
+    display: flex;
+    justify-content: space-between;
+}
+
+.SubRow {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    padding: 5px;
+    /* margin: 5px; */
+}
+
+.SubRow button {
+    padding: 5px;
+    margin: 2px;
+}
+
+#one {
+    /* color: red; */
+    /* color: red; */
+    margin-top: 6px;
+    border: 0px solid black;
+    height: 32px;
+    width: 50;
+}
+
+#one :hover {
+    color: red;
+    cursor: pointer;
+    /* scale: (0.8); */
+    transform: scale3d(0.8);
+    transition: ease-in-out;
+}
+
+#two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(180deg, green 0%, green 100%);
+    background-origin: border-box;
+    box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#two:focus {
+    box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+    /* outline: 0; */
+}
+
+#two:hover {
+    color: black;
+    /* outline: 0; */
+}
+
+
+
+/* Pagination.css */
+
+.pagination {
+    position: relative;
+    left: 11%;
+    width: 76%;
+    display: flex;
+    padding: 16px;
+    background: violet;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+button[disabled] {
+    cursor: not-allowed;
+    background-color: #ddd;
+}
+
+.page-numbers {
+    margin: 0 10px;
+}
+
+/* Media query for screens around 437 x 732 */
+@media screen and (max-width: 1226px) and (max-height: 732px) {
+    .custom-card {
+        width: 37%;
+        height: 589px;
+        overflow-y: hidden;
+        /* Change the width to 100% for smaller screens */
+    }
+}
+
+
+@media (max-width: 768px) {
+    .custom-card {
+        width: 88%;
+        left: 3%;
+        height: 5%;
+        display: block;
+        margin-bottom: 16px;
+    }
+
+
+    /* /* @media screen and (max-width: 864px) and (min-height: 732px) {
+    .custom-card {
+        width: 78%;
+        height: 586px;
+        overflow-y: hidden;
+        Change the width to 100% for smaller screens
+    } */
+
+}
+
+
+
+
