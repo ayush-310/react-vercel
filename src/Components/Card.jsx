@@ -8,7 +8,7 @@ import { SiGoogleearthengine } from "react-icons/si";
 function Card({ data }) {
     return (
         <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105 m-4">
-            <img className="w-full h-48 object-cover" src={data.image} alt={data.title} />
+            <img className="w-full h-52 object-cover" src={data.image} alt={data.title} />
             <div className="p-4 flex  justify-between">
                 <div>
                     <h3 className="text-xl font-semibold text-gray-800">{data.title}</h3>
