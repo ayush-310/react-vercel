@@ -25,7 +25,7 @@ function App() {
     <div className="min-h-screen flex flex-col items-center bg-gray-50 p-4">
       <Topbar onSearch={(term) => setSearchTerm(term)} />
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8 w-full max-w-5xl">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8 w-full w-100">
         {records.map((item) => (
           <Card key={item.id} data={item} />
         ))}
