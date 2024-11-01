@@ -10,7 +10,7 @@ function Footer({ currentPage, totalPages, onPageChange }) {
     };
 
     return (
-        <div className="bg-gray-100 p-4 flex justify-between items-center">
+        <div className="bg-gray-100 p-4 md:mx-24 flex justify-center sm:gap-16 items-center">
             <button
                 onClick={handlePrevious}
                 disabled={currentPage === 1}

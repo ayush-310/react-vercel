@@ -2,7 +2,7 @@ import React from 'react';
 
 function AboutUs() {
     return (
-        <div className=" min-h-screen flex flex-col items-center p-8">
+        <div className=" min-h-screen flex flex-col items-center p-4 mt-2">
             {/* Headline */}
             <h1 className="text-4xl md:text-5xl font-bold text-blue-700 mb-4">
                 Your Company Name: Your Journey, Our Drive
