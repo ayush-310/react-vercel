@@ -2,83 +2,148 @@ import React from 'react';
 
 function AboutUs() {
     return (
-        <div className=" min-h-screen flex flex-col items-center p-4 mt-2">
-            {/* Headline */}
-            <h1 className="text-4xl md:text-5xl font-bold text-blue-700 mb-4">
-                Your Company Name: Your Journey, Our Drive
-            </h1>
-            <h2 className="text-2xl md:text-3xl text-gray-600 mb-8">
-                Experience the Freedom of the Road
-            </h2>
-
-            {/* Image */}
-            <div className="w-full max-w-4xl mb-8">
-                <img src="https://i.pinimg.com/564x/3b/fe/f6/3bfef65bc8946db2ef5c6e35dd5acbe4.jpg" alt="Happy family enjoying a road trip in a rented car" className="w-full rounded-lg shadow-lg" />
-            </div>
-
-            <div className='flex flex-wrap flex-col gap-2 items-center justify-center'>
-
-                {/* Mission and Values Section */}
-                <div className="max-w-3xl w-100 bg-white rounded-lg shadow-md p-6 mb-8">
-                    <h3 className="text-2xl font-semibold text-blue-700 mb-4">Our Mission</h3>
-                    <ul className="list-disc list-inside text-gray-700 mb-6 space-y-2">
-                        <li>To provide hassle-free car rental solutions</li>
-                        <li>To offer a wide range of vehicles to suit every need</li>
-                        <li>To deliver exceptional customer service</li>
-                    </ul>
+        <>
+            <section className="py-24 relative">
+                <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
+                    <div className="w-full justify-start items-center gap-12 grid lg:grid-cols-2 grid-cols-1">
+                        <div
+                            className="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
+                            <div className="pt-24 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
+                                <img className=" rounded-xl object-cover" src="https://pagedone.io/asset/uploads/1717741205.png" alt="about Us image" />
+                            </div>
+                            <img className="sm:ml-0 ml-auto rounded-xl object-cover" src="https://pagedone.io/asset/uploads/1717741215.png"
+                                alt="about Us image" />
+                        </div>
+                        <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
+                            <div className="w-full flex-col justify-center items-start gap-8 flex">
+                                <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+                                    <h2
+                                        className="text-gray-900 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
+                                        Empowering Each Other to Succeed</h2>
+                                    <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
+                                        Every project we've undertaken has been a collaborative effort, where every person
+                                        involved has left their mark. Together, we've not only constructed buildings but also
+                                        built enduring connections that define our success story.</p>
+                                </div>
+                                <div className="w-full lg:justify-start justify-center items-center sm:gap-10 gap-5 inline-flex">
+                                    <div className="flex-col justify-start items-start inline-flex">
+                                        <h3 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">33+</h3>
+                                        <h6 className="text-gray-500 text-base font-normal leading-relaxed">Years of Experience</h6>
+                                    </div>
+                                    <div className="flex-col justify-start items-start inline-flex">
+                                        <h4 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">125+</h4>
+                                        <h6 className="text-gray-500 text-base font-normal leading-relaxed">Successful Projects</h6>
+                                    </div>
+                                    <div className="flex-col justify-start items-start inline-flex">
+                                        <h4 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">52+</h4>
+                                        <h6 className="text-gray-500 text-base font-normal leading-relaxed">Happy Clients</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <button
+                                className="sm:w-fit w-full px-3.5 py-2 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
+                                <span className="px-1.5 text-white text-sm font-medium leading-6">Read More</span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
+            </section>
 
-
-                <div className="max-w-3xl w-100 bg-white rounded-lg shadow-md p-6 mb-8">
-                    <h3 className="text-2xl font-semibold text-blue-700 mb-4">Our Values</h3>
-                    <ul className="text-gray-700 space-y-2">
-                        <li><strong>Customer-Centric:</strong> Your satisfaction is our priority.</li>
-                        <li><strong>Reliability:</strong> We value punctuality and trust.</li>
-                        <li><strong>Innovation:</strong> We embrace technology to enhance your experience.</li>
-                        <li><strong>Sustainability:</strong> We're committed to eco-friendly practices.</li>
-                    </ul>
+            <section className="py-24 relative xl:mr-0 lg:mr-5 mr-0">
+                <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
+                    <div className="w-full justify-start items-center xl:gap-12 gap-10 grid lg:grid-cols-2 grid-cols-1">
+                        <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
+                            <div className="w-full flex-col justify-center items-start gap-8 flex">
+                                <div className="flex-col justify-start lg:items-start items-center gap-4 flex">
+                                    <h6 className="text-gray-400 text-base font-normal leading-relaxed">About Us</h6>
+                                    <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+                                        <h2
+                                            className="text-indigo-700 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
+                                            The Tale of Our Achievement Story</h2>
+                                        <p
+                                            className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
+                                            Our achievement story is a testament to teamwork and perseverance. Together, we've
+                                            overcome challenges, celebrated victories, and created a narrative of progress and
+                                            success.</p>
+                                    </div>
+                                </div>
+                                <div className="w-full flex-col justify-center items-start gap-6 flex">
+                                    <div className="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
+                                        <div
+                                            className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                                            <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">33+ Years</h4>
+                                            <p className="text-gray-500 text-base font-normal leading-relaxed">Influencing Digital
+                                                Landscapes Together</p>
+                                        </div>
+                                        <div
+                                            className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                                            <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">125+ Projects
+                                            </h4>
+                                            <p className="text-gray-500 text-base font-normal leading-relaxed">Excellence Achieved
+                                                Through Success</p>
+                                        </div>
+                                    </div>
+                                    <div className="w-full h-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
+                                        <div
+                                            className="w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                                            <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">26+ Awards</h4>
+                                            <p className="text-gray-500 text-base font-normal leading-relaxed">Our Dedication to
+                                                Innovation Wins Understanding</p>
+                                        </div>
+                                        <div
+                                            className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                                            <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">99% Happy
+                                                Clients</h4>
+                                            <p className="text-gray-500 text-base font-normal leading-relaxed">Mirrors our Focus on
+                                                Client Satisfaction.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button
+                                className="sm:w-fit w-full group px-3.5 py-2 bg-indigo-50 hover:bg-indigo-100 rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] transition-all duration-700 ease-in-out justify-center items-center flex">
+                                <span
+                                    className="px-1.5 text-indigo-600 text-sm font-medium leading-6 group-hover:-translate-x-0.5 transition-all duration-700 ease-in-out">Read
+                                    More</span>
+                                <svg className="group-hover:translate-x-0.5 transition-all duration-700 ease-in-out"
+                                    xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M6.75265 4.49658L11.2528 8.99677L6.75 13.4996" stroke="#4F46E5" stroke-width="1.6"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div className="w-full lg:justify-start justify-center items-start flex">
+                            <div
+                                className="sm:w-[564px] w-full sm:h-[646px] h-full sm:bg-gray-100 rounded-3xl sm:border border-gray-200 relative">
+                                <img className="sm:mt-5 sm:ml-5 w-full h-full rounded-3xl object-cover"
+                                    src="https://pagedone.io/asset/uploads/1717742431.png" alt="about Us image" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </section>
 
-                {/* Why Choose Us Section */}
-                <div className="max-w-3xl w-100 bg-white rounded-lg shadow-md p-6 mb-8">
-                    <h3 className="text-2xl font-semibold text-blue-700 mb-4">Why Choose Us?</h3>
-                    <ul className="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Easy Booking: Book your car in just a few clicks.</li>
-                        <li>Flexible Rentals: Choose from daily, weekly, or monthly rentals.</li>
-                        <li>Well-Maintained Fleet: Drive safe and stylish vehicles.</li>
-                        <li>24/7 Support: Assistance is always a call away.</li>
-                        <li>Transparent Pricing: No hidden fees, just clear costs.</li>
-                    </ul>
+            <section className="py-24 relative">
+                <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
+                    <div className="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1">
+                        <img className="lg:mx-0 mx-auto h-full rounded-3xl object-cover" src="https://pagedone.io/asset/uploads/1717751272.png" alt="about Us image" />
+                        <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
+                            <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
+                                <h2 className="text-gray-900 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">Building Stronger Communities through Collaboration and Empowerment</h2>
+                                <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">Through collaborationperse perspectives and strengths are leveraged to create inclusive environments where everyone has the opportunity to thrive. This approach not only fosters personal growth and achievement but also strengthens the fabric of society.</p>
+                            </div>
+                            <button className="sm:w-fit w-full px-3.5 py-2 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
+                                <span className="px-1.5 text-white text-sm font-medium leading-6">Get Started</span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
+            </section>
 
-                <div className="w-[100%] bg-white rounded-lg shadow-md p-6 mb-8">
-                    <h3 className="text-2xl font-semibold text-blue-700 mb-4">What Sets Us Apart</h3>
 
-                    <ul className="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Instant Booking: Reserve your ride in seconds with our streamlined platform.</li>
-                        <li>Flexible Rentals: Daily, weekly, or monthly plans to suit your schedule.</li>
-                        <li>Top-Notch Fleet: Drive safe and stylish vehicles, meticulously maintained.</li>
-                        <li>24/7 Support: Wherever you are, our team is just a call away.</li>
-                        <li>Transparent Pricing: No hidden costs, only upfront pricing.</li>
-                    </ul>
-                </div>
-            </div>
+        </>
 
-            {/* Call to Action */}
-            <div className="bg-blue-600 text-white rounded-lg p-6 mb-12 w-full max-w-3xl flex flex-col items-center text-center shadow-md">
-                <h4 className="text-3xl font-bold mb-4">Ready to explore?</h4>
-                <p className="text-lg mb-6">Book your dream car today!</p>
-                <button className="bg-yellow-400 text-blue-800 font-semibold py-2 px-6 rounded-full hover:bg-yellow-300 transition-colors">
-                    Book Now
-                </button>
-            </div>
 
-            {/* Optional Testimonials or Additional Info */}
-            <div className="max-w-3xl text-gray-600 text-center">
-                <p className="text-lg mb-4">"Amazing service! The best car rental experience I've ever had!"</p>
-                <p>- Satisfied Customer</p>
-            </div>
-        </div>
     );
 }
 
