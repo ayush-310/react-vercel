@@ -12,7 +12,7 @@ export function CardDetails({ isFavorite, toggleFavorite }) {
     }
 
     return (
-        <div className="flex flex-col items-center mt-8 sm:p-8 bg-gray-50 min-h-screen">
+        <div className="flex flex-col items-center  sm:p-8 bg-gray-50 min-h-screen">
             <div className="container mx-auto p-4 rounded-lg shadow-lg bg-white">
                 <div className="flex flex-col md:flex-row items-center md:space-x-8 space-y-8 md:space-y-0">
 
@@ -58,7 +58,7 @@ export function CardDetails({ isFavorite, toggleFavorite }) {
                         </div>
                         <div className="mt-6">
                             <Link
-                                to="/"
+                                to="/home"
                                 className="inline-block px-6 py-2 text-black border border-gray-800 rounded-md hover:bg-black hover:text-white transition duration-200">
                                 Back
                             </Link>
